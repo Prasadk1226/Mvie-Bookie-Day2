@@ -1,0 +1,84 @@
+body {
+  background-color: gray;
+  /* background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(3, 3, 3),rgb(255, 255, 255),rgb(0, 0, 0),rgb(255, 255, 255),rgb(0, 0, 0),rgb(255, 255, 255)); */
+}
+img {
+  border-radius: 25px;
+}
+h4 {
+  background-color: rgb(63, 63, 63);
+}
+.Navbar {
+  position: relative;
+  left: 90%;
+}
+.pic {
+  transition: 0.5s;
+}
+.pic:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+/* #mainname{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    border-radius: 25px;
+    font-style: italic;
+} */
+
+#Movie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom left, black, white);
+}
+
+#Series {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+  border-radius: 25px;
+  background: linear-gradient(to top right, black, white);
+}
+
+#Movie div {
+  margin: 30px;
+  /* padding: 10px; */
+}
+
+#Series div {
+  margin: 30px;
+}
+/* .Navbar{
+    align-items: flex-end;
+} */
+/* #mainname div{
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    margin: 30px;
+    min-width: 120px;
+    background: blanchedalmond
+} */
+.LogIn {
+  background-color: rgb(4, 213, 84);
+  position: relative;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.Profile {
+  position: relative;
+  top: 50%;
+  padding: 10px;
+  border-radius: 50px;
+}
